@@ -1,0 +1,12 @@
+{
+    "hardhat": {
+        "verifyingContract": "0x0000000000000000000000000000000000000000",
+        "toAddress": "0x0000000000000000000000000000000000000000",
+        "toContract": "0x0000000000000000000000000000000000000000",
+        "gasLimit": "0xffffffffffffffff",
+        "name" : "Forwarder",
+        "version" : "1",
+        "domainSeparator" : "0x0000000000000000000000000000000000000000",
+        "networkId" : "1"
+    }
+}

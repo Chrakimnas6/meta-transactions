@@ -12,6 +12,7 @@ async function domainSeparator (name, version, chainId, verifyingContract) {
     'EIP712Domain',
     { name, version, chainId, verifyingContract },
     { EIP712Domain },
+    ethSigUtil.SignTypedDataVersion.V4
   ).toString('hex');
 }
 
